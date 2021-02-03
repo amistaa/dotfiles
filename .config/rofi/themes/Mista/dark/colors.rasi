@@ -1,0 +1,19 @@
+* {
+    /* Primary Colors */
+    background          : #282A36;
+    selected-background : rgba(0, 0, 0, 20%);
+    
+    foreground          : #F8F8F2;
+    selected-foreground : rgba(255, 255, 255, 100%);
+    
+    /* Color Palette */
+    black               : #44475A;
+    red                 : #FF5555;
+    green               : #50FA7B;
+    yellow              : #F1FA8C;
+    blue                : #79D5FF;
+    purple              : #BD93F9;
+    cyan                : #8BE9FD;
+    magenta             : #FF79C6;
+    white               : #F8F8F2;
+}
