@@ -55,6 +55,7 @@ element-text {
 }
 
 #element.selected.normal {
+    border-radius       : 1%;
     background-color    : @selected-background;
     text-color          : @selected-foreground;
 }
@@ -83,6 +84,7 @@ element-text {
     spacing             : 0;
     text-color          : @selected-foreground;
     padding             : 7px;
+    margin              : 20px 200px 0px 200px;
     border-radius       : 100%;
     background-color    : @selected-background;
 }
@@ -96,6 +98,8 @@ element-text {
 #entry {
     spacing             : 0;
     text-color          : @selected-foreground;
+    placeholder         : "Search...";
+    placeholder-color   : rgba(255, 255, 255, 70%);
     background-color    : rgba(0,0,0,0);
 }
 
@@ -109,7 +113,7 @@ element-text {
     expand              : false;
     str                 : "";
     margin              : 0px 0.7em 0em 0em ;
-    text-color          : @green;
+    text-color          : @white;
     background-color    : rgba(0,0,0,0);
 }
 
